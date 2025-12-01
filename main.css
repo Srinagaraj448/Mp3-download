@@ -5,19 +5,21 @@
 body {
     font-family: Inter, system-ui, sans-serif;
     margin: 0;
-    padding-top: 80px;
+   
 }
 
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 999;
-    background: #fff;
+
     padding: 15px 20px;
     background-color: rgb(91 91 145);
 }
+
+
+/* Hover orange */
+.nav-hover:hover {
+    color: orange !important;
+}
+
 
 header h4 {
     margin: 0;
@@ -29,6 +31,27 @@ header nav a {
     text-decoration: none;
     transition: color .3s ease, transform .3s ease;
 }
+.navbar-nav .nav-link:hover {
+    color: orange !important;
+}
+
+
+.navbar {
+    padding: 10px 0;
+}
+
+.transparent-nav {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+
+.nav-hover:hover {
+    color: orange !important;
+}
+
+
 
 header nav a:hover {
     color: orange !important;
