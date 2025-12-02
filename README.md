@@ -40,7 +40,6 @@ https://srinagaraj448.github.io/Mp3-download/
 - **HTML5**
 - **CSS3**
 - **Bootstrap 5**
-- **JavaScript**
 - **GitHub Pages** for hosting
 
 ---
